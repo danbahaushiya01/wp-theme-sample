@@ -1,12 +1,6 @@
 <!-- index.php -->
 
 <?php get_header(); ?>
-    <div id="main-content">
-        <nav>
-            Home | About us | Blog | Contact us
-        </nav>    
-    </div>
-
     <div class="container">
         <div class="row">
             <div class="col-md-6">
@@ -71,6 +65,9 @@
     </div>
 
    <!-- recent blogs -->
+   <div class="col-md-12">
+            <h1 class="text-center">OUR BLOG</h1>
+        </div>
    <?php get_template_part('include/recent-blogs'); ?>
 
     <!-- contact us -->
